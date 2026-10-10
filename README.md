@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/ssrobotics-logo.jpg" alt="SSRobotics — original logo by SSRobotic" width="240"></p>
 
 <h1 align="center">💾 Datasets & Demonstrations</h1>
-<p align="center"><b>SSRobotics · Engineering Resource Directory</b></p>
+<p align="center"><b>SSRobotics · Source Code Collection</b></p>
 
 <p align="center">
   <a href="https://ssrobotic.github.io/humanoid-robot-hub/"><img src="https://img.shields.io/badge/Resources-5-f28c28?style=flat-square" alt="5 curated resources"></a>
@@ -27,6 +27,23 @@ Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repos
 | [Open X-Embodiment](https://github.com/google-deepmind/open_x_embodiment) | Cross-embodiment robot dataset resources and supporting tooling. | Datasets, Cross-embodiment, Robotics | [google-deepmind](https://github.com/google-deepmind/open_x_embodiment) |
 | [RoboMIND Dataset](https://huggingface.co/datasets/x-humanoid-robomind/RoboMIND) | Multi-embodiment demonstration data, including TienKung. See the dataset card for access conditions. | RoboMIND, Demonstrations, TienKung | [X-Humanoid / RoboMIND](https://huggingface.co/datasets/x-humanoid-robomind/RoboMIND) |
 | [ArtVIP Assets](https://huggingface.co/datasets/X-Humanoid/ArtVIP) | Articulated-object digital-twin datasets and scene assets from X-Humanoid. | Digital twin, USD, Assets | [X-Humanoid](https://huggingface.co/datasets/X-Humanoid/ArtVIP) |
+
+## 📦 Code & models in this repository
+
+**12 tracked upstream files** — เปิดโฟลเดอร์ด้านล่างเพื่อดูโค้ดจริง โมเดล และตัวอย่างต้นฉบับ
+
+| Project files | Files | Pinned source | License / notices |
+| --- | ---: | --- | --- |
+| [google-deepmind/open_x_embodiment](projects/open_x_embodiment) | 12 | [`9eeb68b989ef`](https://github.com/google-deepmind/open_x_embodiment/tree/9eeb68b989efbcf474e8fb9019e01d02b962a604) | [LICENSE](projects/open_x_embodiment/LICENSE) |
+
+[Source manifest](source-manifest.json) records commits, file counts, Git LFS pointers and external submodules. [Per-file manifests](source-manifests/) record original Git blob hashes. `projects/` keeps upstream code, README files, licenses and notices; SSRobotics supplies the organization and guides.
+
+```bash
+git clone --depth 1 https://github.com/SSRobotic/humanoid-datasets.git
+cd humanoid-datasets
+```
+
+The Open X-Embodiment folder contains real dataset inspection/loading notebooks and documentation. Raw robot datasets are downloaded separately from the original providers; each dataset retains its own access conditions and license.
 
 ## 🚀 Start here
 

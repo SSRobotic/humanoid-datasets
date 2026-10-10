@@ -1,0 +1,87 @@
+{
+  "slug": "google-deepmind/open_x_embodiment",
+  "source_url": "https://github.com/google-deepmind/open_x_embodiment",
+  "commit": "9eeb68b989efbcf474e8fb9019e01d02b962a604",
+  "branch": "main",
+  "snapshot": "all tracked file blobs at the pinned commit",
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "e85d9451a8b06aef26eecd751141c6737e1ae2f9",
+      "size": 970,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "sha": "340af0221215836cbb0353ef8be01768af86104d",
+      "size": 4719,
+      "mode": "100644"
+    },
+    {
+      "path": "colabs/Minimal_Training_Example.ipynb",
+      "sha": "88bbdcd2e4e9055bf712cc8f815290a05e463596",
+      "size": 2517791,
+      "mode": "100644"
+    },
+    {
+      "path": "colabs/Minimal_example_for_running_inference_using_RT_1_X_TF_using_tensorflow_datasets.ipynb",
+      "sha": "5bc81ae3b3630c018bf181b7eda56d28984682c5",
+      "size": 11383057,
+      "mode": "100644"
+    },
+    {
+      "path": "colabs/Open_X_Embodiment_Datasets.ipynb",
+      "sha": "b44f0f819256df76264fa9dc57aa9d53c2aaefdf",
+      "size": 6686379,
+      "mode": "100644"
+    },
+    {
+      "path": "imgs/teaser.png",
+      "sha": "1703b182a0dd1f2efc48df66cc2ead87a4591359",
+      "size": 5126290,
+      "mode": "100644"
+    },
+    {
+      "path": "models/efficientnet.py",
+      "sha": "7ee8add9716f809a3b6b52d3b6deda11e98508c8",
+      "size": 18849,
+      "mode": "100644"
+    },
+    {
+      "path": "models/film_conditioning.py",
+      "sha": "4dca5433bee0f1c73bbaffc516257b92706a89bb",
+      "size": 1039,
+      "mode": "100644"
+    },
+    {
+      "path": "models/rt1.py",
+      "sha": "f7c49b9c83a0655987f194c4ad0f754178223c55",
+      "size": 18161,
+      "mode": "100644"
+    },
+    {
+      "path": "models/rt1_inference_example.py",
+      "sha": "d265243265a1d63999406fae73ee7237dce59efe",
+      "size": 5342,
+      "mode": "100644"
+    },
+    {
+      "path": "models/token_learner.py",
+      "sha": "5866deef09525dfe3109e40201a9ee1b1e95ef67",
+      "size": 3785,
+      "mode": "100644"
+    }
+  ],
+  "gitlinks": [],
+  "license": "Apache-2.0",
+  "folder": "projects/open_x_embodiment",
+  "file_count": 12,
+  "bytes": 25777740,
+  "lfs_pointers": []
+}

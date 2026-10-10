@@ -1,22 +1,46 @@
 [
   {
-    "id": "robomind",
-    "key": "RoboMIND",
-    "title": "RoboMIND Dataset",
-    "description": "Multi-embodiment demonstration data, including TienKung. See the dataset card for access conditions.",
-    "descriptionTh": "Dataset Demonstration หลาย Embodiment รวมถึง TienKung ตรวจเงื่อนไขเข้าถึงจาก Dataset Card",
+    "id": "huggingface-lerobot",
+    "title": "LeRobot",
+    "categories": [
+      "learning",
+      "manipulation",
+      "datasets"
+    ],
+    "tags": [
+      "Imitation learning",
+      "Datasets",
+      "Python"
+    ],
+    "description": "Robot learning tools, datasets and policies. A supporting embodied AI resource; hardware support is project-specific.",
+    "descriptionTh": "เครื่องมือ Dataset และ Policy สำหรับ Robot Learning เป็นแหล่งข้อมูล Embodied AI ที่เกี่ยวข้อง การรองรับฮาร์ดแวร์ขึ้นกับโครงการ",
+    "source": "upstream",
+    "owner": "huggingface",
+    "url": "https://github.com/huggingface/lerobot",
+    "upstream": "https://github.com/huggingface/lerobot",
+    "license": "Apache-2.0",
+    "verifiedOn": "2026-10-10",
+    "key": "huggingface/lerobot"
+  },
+  {
+    "id": "Open-X-Humanoid-x-humanoid-training-toolchain",
+    "key": "Open-X-Humanoid/x-humanoid-training-toolchain",
+    "title": "X-Humanoid Training Toolchain",
+    "description": "Tools connecting TienKung / RoboMIND workflows with LeRobot.",
+    "descriptionTh": "เครื่องมือเชื่อมเวิร์กโฟลว์ TienKung / RoboMIND กับ LeRobot",
     "categories": [
       "datasets"
     ],
     "tags": [
+      "TienKung",
       "RoboMIND",
-      "Demonstrations",
-      "TienKung"
+      "LeRobot"
     ],
     "source": "upstream",
-    "owner": "X-Humanoid / RoboMIND",
-    "url": "https://huggingface.co/datasets/x-humanoid-robomind/RoboMIND",
-    "upstream": "https://huggingface.co/datasets/x-humanoid-robomind/RoboMIND",
+    "owner": "Open-X-Humanoid",
+    "url": "https://github.com/Open-X-Humanoid/x-humanoid-training-toolchain",
+    "upstream": "https://github.com/Open-X-Humanoid/x-humanoid-training-toolchain",
+    "license": "Apache-2.0",
     "verifiedOn": "2026-10-10"
   },
   {
@@ -41,48 +65,24 @@
     "verifiedOn": "2026-10-10"
   },
   {
-    "id": "Open-X-Humanoid-x-humanoid-training-toolchain",
-    "key": "Open-X-Humanoid/x-humanoid-training-toolchain",
-    "title": "X-Humanoid Training Toolchain",
-    "description": "Tools connecting TienKung / RoboMIND workflows with LeRobot.",
-    "descriptionTh": "เครื่องมือเชื่อมเวิร์กโฟลว์ TienKung / RoboMIND กับ LeRobot",
+    "id": "robomind",
+    "key": "RoboMIND",
+    "title": "RoboMIND Dataset",
+    "description": "Multi-embodiment demonstration data, including TienKung. See the dataset card for access conditions.",
+    "descriptionTh": "Dataset Demonstration หลาย Embodiment รวมถึง TienKung ตรวจเงื่อนไขเข้าถึงจาก Dataset Card",
     "categories": [
       "datasets"
     ],
     "tags": [
-      "TienKung",
       "RoboMIND",
-      "LeRobot"
+      "Demonstrations",
+      "TienKung"
     ],
     "source": "upstream",
-    "owner": "Open-X-Humanoid",
-    "url": "https://github.com/Open-X-Humanoid/x-humanoid-training-toolchain",
-    "upstream": "https://github.com/Open-X-Humanoid/x-humanoid-training-toolchain",
-    "license": "Apache-2.0",
+    "owner": "X-Humanoid / RoboMIND",
+    "url": "https://huggingface.co/datasets/x-humanoid-robomind/RoboMIND",
+    "upstream": "https://huggingface.co/datasets/x-humanoid-robomind/RoboMIND",
     "verifiedOn": "2026-10-10"
-  },
-  {
-    "id": "huggingface-lerobot",
-    "title": "LeRobot",
-    "categories": [
-      "learning",
-      "manipulation",
-      "datasets"
-    ],
-    "tags": [
-      "Imitation learning",
-      "Datasets",
-      "Python"
-    ],
-    "description": "Robot learning tools, datasets and policies. A supporting embodied AI resource; hardware support is project-specific.",
-    "descriptionTh": "เครื่องมือ Dataset และ Policy สำหรับ Robot Learning เป็นแหล่งข้อมูล Embodied AI ที่เกี่ยวข้อง การรองรับฮาร์ดแวร์ขึ้นกับโครงการ",
-    "source": "upstream",
-    "owner": "huggingface",
-    "url": "https://github.com/huggingface/lerobot",
-    "upstream": "https://github.com/huggingface/lerobot",
-    "license": "Apache-2.0",
-    "verifiedOn": "2026-10-10",
-    "key": "huggingface/lerobot"
   },
   {
     "id": "artvip",
